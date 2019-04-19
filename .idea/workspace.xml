@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f0f641d-a86e-448b-8f4d-21ec3b4b7b6d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MarkBook/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/MarkBook/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models.py" afterDir="false" />
-    </list>
+    <list default="true" id="0f0f641d-a86e-448b-8f4d-21ec3b4b7b6d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="32" column="44" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="44" />
+            <state relative-caret-position="600">
+              <caret line="46" column="58" selection-start-line="46" selection-start-column="58" selection-end-line="46" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -61,8 +56,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="224" />
-    <option name="y" value="38" />
+    <option name="x" value="259" />
+    <option name="y" value="31" />
     <option name="width" value="1021" />
     <option name="height" value="673" />
   </component>
@@ -79,11 +74,6 @@
             <path>
               <item name="MarkBook" type="b2602c69:ProjectViewProjectNode" />
               <item name="MarkBook" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MarkBook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MarkBook" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -153,7 +143,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555674467810</updated>
-      <workItem from="1555674470857" duration="5041000" />
+      <workItem from="1555674470857" duration="5843000" />
     </task>
     <task id="LOCAL-00001" summary="鸡你太美">
       <created>1555676087560</created>
@@ -176,14 +166,21 @@
       <option name="project" value="LOCAL" />
       <updated>1555677653453</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="鸡你太美">
+      <created>1555679626946</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1555679626946</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5041000" />
+    <option name="totallyTimeSpent" value="5843000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="293" y="20" width="1021" height="673" extended-state="0" />
+    <frame x="224" y="38" width="1021" height="673" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -192,11 +189,11 @@
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
       <window_info anchor="bottom" id="Version Control" order="2" sideWeight="0.49846783" weight="0.32841328" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="3" sideWeight="0.4964249" visible="true" weight="0.32841328" />
-      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.5035751" side_tool="true" visible="true" weight="0.32841328" />
+      <window_info anchor="bottom" id="Terminal" order="3" sideWeight="0.4964249" weight="0.32841328" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.505618" side_tool="true" visible="true" weight="0.32841328" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.49540347" weight="0.32841328" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" sideWeight="0.49438202" visible="true" weight="0.32841328" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
@@ -295,8 +292,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="32" column="44" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="44" />
+        <state relative-caret-position="600">
+          <caret line="46" column="58" selection-start-line="46" selection-start-column="58" selection-end-line="46" selection-end-column="58" />
         </state>
       </provider>
     </entry>
