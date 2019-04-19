@@ -35,7 +35,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'app.apps.AppConfig'
+    'app.apps.AppConfig',
+
 ]
 
 MIDDLEWARE = [
@@ -111,8 +112,11 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
-
+# STATICFILES_STORAGE = 'MarkBook.storage.S3Storage'
 STATIC_URL = '/'
+# 开发阶段关闭debug使用
+# STATIC_ROOT = 'static'
+# STATIC_ROOT = os.path.join(BASE_DIR, "source")
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "source"),
+    os.path.join(BASE_DIR, "static"),
 ]
