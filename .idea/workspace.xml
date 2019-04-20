@@ -2,23 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f0f641d-a86e-448b-8f4d-21ec3b4b7b6d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/js/axios.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MarkBook/jinja2_env.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MarkBook/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/MarkBook/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MarkBook/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/MarkBook/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/static/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/static/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bootstrap.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/static/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/static/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/static/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/static/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/static/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/static/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/test.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,37 +20,16 @@
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="MarkBook" />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MarkBook/urls.py">
+        <entry file="file://$PROJECT_DIR$/templates/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-              <folding>
-                <element signature="e#702#734#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="64" lean-forward="true" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MarkBook/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="55" column="60" lean-forward="true" selection-start-line="55" selection-start-column="60" selection-end-line="55" selection-end-column="60" />
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="14" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -91,19 +61,22 @@
         <option value="$PROJECT_DIR$/app/api.py" />
         <option value="$PROJECT_DIR$/app/models.py" />
         <option value="$PROJECT_DIR$/source/test.html" />
-        <option value="$PROJECT_DIR$/templates/test.html" />
         <option value="$PROJECT_DIR$/static/test.html" />
-        <option value="$PROJECT_DIR$/MarkBook/settings.py" />
+        <option value="$PROJECT_DIR$/pages/base.html" />
+        <option value="$PROJECT_DIR$/pages/test.html" />
         <option value="$PROJECT_DIR$/app/urls.py" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/jinja2_env.py" />
         <option value="$PROJECT_DIR$/MarkBook/urls.py" />
+        <option value="$PROJECT_DIR$/MarkBook/settings.py" />
+        <option value="$PROJECT_DIR$/templates/test.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="266" />
-    <option name="y" value="8" />
-    <option name="width" value="1021" />
-    <option name="height" value="673" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1366" />
+    <option name="height" value="718" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -111,7 +84,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -119,37 +91,34 @@
               <item name="MarkBook" type="b2602c69:ProjectViewProjectNode" />
               <item name="MarkBook" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="MarkBook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MarkBook" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/static" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pages" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/static" />
-      <recent name="$PROJECT_DIR$/source/static/js" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/MarkBook" />
+      <recent name="$PROJECT_DIR$/app" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/templates" />
       <recent name="$PROJECT_DIR$/source" />
-      <recent name="$PROJECT_DIR$/static/js" />
-      <recent name="$PROJECT_DIR$/static/css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pages" />
+      <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$/source/static/js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -200,7 +169,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555674467810</updated>
-      <workItem from="1555674470857" duration="12636000" />
+      <workItem from="1555674470857" duration="12878000" />
+      <workItem from="1555720942462" duration="4678000" />
+      <workItem from="1555725644101" duration="238000" />
     </task>
     <task id="LOCAL-00001" summary="鸡你太美">
       <created>1555676087560</created>
@@ -258,37 +229,43 @@
       <option name="project" value="LOCAL" />
       <updated>1555682463329</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="鸡你太美">
+      <created>1555687647001</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1555687647001</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12636000" />
+    <option name="totallyTimeSpent" value="17794000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="266" y="8" width="1021" height="673" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1366" height="718" extended-state="6" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24923392" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49725273" visible="true" weight="0.18957704" />
+      <window_info id="Structure" order="1" sideWeight="0.50274724" side_tool="true" weight="0.2533197" />
+      <window_info id="Favorites" order="2" sideWeight="0.50274724" side_tool="true" weight="0.2533197" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
       <window_info anchor="bottom" id="Version Control" order="2" sideWeight="0.4964249" weight="0.32841328" />
-      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.5107252" side_tool="true" visible="true" weight="0.32841328" />
+      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.51182306" side_tool="true" weight="0.3302583" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Terminal" order="6" sideWeight="0.49131766" weight="0.3302583" />
-      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.48927477" visible="true" weight="0.32841328" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.48665142" visible="true" weight="0.30153322" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.48817697" weight="0.3302583" />
       <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.49846783" weight="0.32841328" />
       <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -365,24 +342,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/test.html">
+    <entry file="file://$PROJECT_DIR$/MarkBook/jinja2_env.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="8" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+        <state relative-caret-position="75">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MarkBook/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="55" column="60" lean-forward="true" selection-start-line="55" selection-start-column="60" selection-end-line="55" selection-end-column="60" />
+        <state relative-caret-position="182">
+          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="64" lean-forward="true" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
+        <state relative-caret-position="120">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
@@ -391,11 +378,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MarkBook/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-          <folding>
-            <element signature="e#702#734#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="270">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="14" selection-end-column="14" />
         </state>
       </provider>
     </entry>

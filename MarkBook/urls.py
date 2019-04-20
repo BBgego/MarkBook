@@ -18,12 +18,14 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 # from django.views import static
+from django.views.generic.base import TemplateView
 
 urlpatterns = [
     # 开发阶段关闭debug使用
     # url(r'^(?P<path>.*)$', static.serve,
     #     {'document_root': settings.STATIC_ROOT}, name='static'),
-    path('admin/', admin.site.urls),
-    path(r'', include('app.urls')),
+    # path('admin/', admin.site.urls),
+    path(r'api/', include('app.urls')),
+    path(r'', TemplateView.as_view(template_name="test.html"))
 
 ]

@@ -29,7 +29,7 @@ ALLOWED_HOSTS = ["*"]
 # Application definition
 
 INSTALLED_APPS = [
-    'django.contrib.admin',
+    # 'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
@@ -53,18 +53,21 @@ ROOT_URLCONF = 'MarkBook.urls'
 
 TEMPLATES = [
     {
-        'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        # 'DIRS': [os.path.join(BASE_DIR, 'templates')],
-        'APP_DIRS': False,
+        # 'BACKEND': 'django.template.backends.django.DjangoTemplates',
+        'BACKEND': 'django.template.backends.jinja2.Jinja2',
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
+        'APP_DIRS': True,
         'OPTIONS': {
-            'context_processors': [
-                'django.template.context_processors.debug',
-                'django.template.context_processors.request',
-                'django.contrib.auth.context_processors.auth',
-                'django.contrib.messages.context_processors.messages',
-            ],
+            # 'context_processors': [
+            #     'django.template.context_processors.debug',
+            #     'django.template.context_processors.request',
+            #     'django.contrib.auth.context_processors.auth',
+            #     'django.contrib.messages.context_processors.messages',
+            # ],
+            'environment': 'MarkBook.jinja2_env.environment',
         },
-    },
+
+    }
 ]
 
 WSGI_APPLICATION = 'MarkBook.wsgi.application'
@@ -113,7 +116,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 # STATICFILES_STORAGE = 'MarkBook.storage.S3Storage'
-STATIC_URL = '/'
+STATIC_URL = '/static/'
 # 开发阶段关闭debug使用
 # STATIC_ROOT = 'static'
 # STATIC_ROOT = os.path.join(BASE_DIR, "source")
