@@ -1,9 +1,9 @@
 from django.urls import path
 
-from app.views import TestView
+from app.api import TestAPI
 
 urlpatterns = [
-    # 测试视图
-    path(r'test/', TestView.as_view(), name="test"),
+    # 测试接口
+    path(r'test/', TestAPI.as_view(), name="test"),
 
 ]
