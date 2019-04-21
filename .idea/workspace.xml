@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f0f641d-a86e-448b-8f4d-21ec3b4b7b6d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/migrations/0002_user_photo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/uploads/photos/default.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
@@ -21,36 +19,12 @@
     <favorites_list name="MarkBook" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/api.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-              <folding>
-                <element signature="e#0#36#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="51" lean-forward="true" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="304">
+              <caret line="54" column="40" selection-start-line="54" selection-start-column="40" selection-end-line="54" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -96,10 +70,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="68" />
-    <option name="y" value="71" />
+    <option name="x" value="51" />
+    <option name="y" value="67" />
     <option name="width" value="1356" />
-    <option name="height" value="538" />
+    <option name="height" value="641" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -131,17 +105,18 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/uploads/photos" />
+      <recent name="$PROJECT_DIR$/pages" />
+      <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$/source/static/js" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/MarkBook" />
       <recent name="$PROJECT_DIR$/app" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/templates" />
       <recent name="$PROJECT_DIR$/source" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/pages" />
-      <recent name="$PROJECT_DIR$/static" />
-      <recent name="$PROJECT_DIR$/source/static/js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -197,7 +172,8 @@
       <workItem from="1555725644101" duration="3352000" />
       <workItem from="1555747709085" duration="47000" />
       <workItem from="1555751405621" duration="1000" />
-      <workItem from="1555764661379" duration="243000" />
+      <workItem from="1555764661379" duration="274000" />
+      <workItem from="1555809938169" duration="959000" />
     </task>
     <task id="LOCAL-00001" summary="鸡你太美">
       <created>1555676087560</created>
@@ -283,16 +259,23 @@
       <option name="project" value="LOCAL" />
       <updated>1555747725190</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="鸡你太美">
+      <created>1555764911448</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1555764911448</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21199000" />
+    <option name="totallyTimeSpent" value="22189000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="197" y="59" width="1356" height="538" extended-state="0" />
+    <frame x="0" y="0" width="1366" height="718" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49725273" visible="true" weight="0.20091324" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49725273" visible="true" weight="0.20241691" />
       <window_info id="Structure" order="1" sideWeight="0.50274724" side_tool="true" weight="0.2533197" />
       <window_info id="Favorites" order="2" sideWeight="0.50274724" side_tool="true" weight="0.2533197" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
@@ -305,7 +288,7 @@
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.48817697" visible="true" weight="0.4127764" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.48817697" visible="true" weight="0.197615" />
       <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.49846783" weight="0.32841328" />
       <window_info anchor="bottom" id="TODO" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -391,16 +374,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/test.html" />
-    <entry file="file://$PROJECT_DIR$/app/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="51" lean-forward="true" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/api.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -411,10 +384,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="51" lean-forward="true" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        <state relative-caret-position="304">
+          <caret line="54" column="40" selection-start-line="54" selection-start-column="40" selection-end-line="54" selection-end-column="40" />
         </state>
       </provider>
     </entry>
