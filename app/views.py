@@ -1,11 +1,27 @@
-from django.http import HttpResponse
-from django.shortcuts import render
+import time
 
-# Create your views here.
-from django.views import View
+from rest_framework import status
+from rest_framework.response import Response
+from rest_framework.views import APIView
+
+from app.models import User
+from app.serializers import UserSerializer
 
 
-# 测试视图
-class TestView(View):
-    def get(self, request):
-        return HttpResponse("hello")
+class UserAPI(APIView):
+    def get(self, request, format=None):
+        id = request.GET.get("id")
+        user = User.objects.filter(id=id)
+        serializer = UserSerializer(user, many=True)
+        return Response(serializer.data)
+
+    def post(self, request, format=None):
+        data = request.POST.copy()
+        print(data)
+        data["sid"] = str(int(time.time()))
+        data["token"] = "123456789"
+        serializer = UserSerializer(data=data)
+        if serializer.is_valid():
+            serializer.save()
+            return Response(serializer.data, status=status.HTTP_201_CREATED)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)

@@ -1,9 +1,10 @@
 from django.urls import path
 
-from app.api import TestAPI
+from app import views
+from rest_framework import routers
+
+from app.views import UserAPI
 
 urlpatterns = [
-    # 测试接口
-    path(r'test/', TestAPI.as_view(), name="test"),
-
+    path(r'user/', UserAPI.as_view())
 ]
