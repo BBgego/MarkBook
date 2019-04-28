@@ -13,8 +13,6 @@ class User(models.Model):
     photo = models.CharField(max_length=100, default="default.jpg")
     # 用户性别
     sex = models.CharField(max_length=10, default="男")
-    # 手机号
-    tel = models.CharField(max_length=20, unique=True)
     # 邮箱
     email = models.CharField(max_length=20, unique=True, null=True)
     # 密码
@@ -25,6 +23,8 @@ class User(models.Model):
     is_del = models.BooleanField(default=False)
     # 登录验证
     token = models.CharField(max_length=200, unique=True, null=True)
+    # 是否验证
+    is_verify = models.BooleanField(default=False)
 
 
 # 文集

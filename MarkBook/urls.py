@@ -19,6 +19,6 @@ urlpatterns = [
     # url(r'^(?P<path>.*)$', static.serve,
     #     {'document_root': settings.STATIC_ROOT}, name='static'),
     # path('admin/', admin.site.urls),
-    path('', include("app.urls"))
+    path('api/', include("app.urls"))
 
 ]
