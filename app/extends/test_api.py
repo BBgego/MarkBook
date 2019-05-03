@@ -25,14 +25,10 @@ if __name__ == '__main__':
     # test_api = TestAPI(url=url, data=data)
     # test_api.res("GET")
 
-    url = "http://127.0.0.1:8000/api/user/"
+    url = "http://127.0.0.1:8000/api/login/"
     data = {
-        "name": "gyw",
-        "sex": "男",
-        "email": "1299622716@qq.com",
-        "password": "123456",
-        "token": "123456",
-        "code": md5_code("7909")
+        "user": "1299622716@qq.com",
+        "password": "123456"
     }
     test_api = TestAPI(url=url, data=data)
     test_api.res("POST")

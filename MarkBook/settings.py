@@ -154,9 +154,19 @@ REST_FRAMEWORK = {
     ),
 }
 
+# 缓存
 CACHES = {
     "default": {
         "BACKEND": "django.core.cache.backends.db.DatabaseCache",
         "LOCATION": "email_cache_table"  # 设置一个数据库存放缓存的表名
     }
 }
+
+# 邮箱
+EMAIL_USE_SSL = True
+EMAIL_HOST = 'smtp.qq.com'
+EMAIL_PORT = 465
+EMAIL_HOST_USER = '1299622716@qq.com'
+EMAIL_SUBJECT_PREFIX = u'MarkBook'
+EMAIL_HOST_PASSWORD = 'kyrsbzvzkqyohccb'
+DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
