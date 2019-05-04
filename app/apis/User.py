@@ -176,7 +176,7 @@ class EmailVerifyAPI(APIView):
 class ReEmailVerifyAPI(APIView):
     def post(self, request):
         email = request.data.get("email")
-        if email:
+        if not email:
             return Response("参数错误", status=status.HTTP_401_UNAUTHORIZED)
         user = User.objects.filter(email=email)
         try:
@@ -202,11 +202,11 @@ class LoginAPI(APIView):
         password = data.get("password")
         try:
             user = User.objects.get(Q(email=user) | Q(sid=user))
-            if user.is_del:
-                return Response("账号已被禁用", status=status.HTTP_403_FORBIDDEN)
-            if not user.is_verify:
-                return Response("账号未激活", status=status.HTTP_404_NOT_FOUND)
             if check_password(password, user.password):
+                if user.is_del:
+                    return Response("账号已被禁用", status=status.HTTP_403_FORBIDDEN)
+                if not user.is_verify:
+                    return Response("账号未激活", status=status.HTTP_404_NOT_FOUND)
                 return Response("验证成功", status=status.HTTP_200_OK)
             else:
                 return Response("密码错误", status=status.HTTP_401_UNAUTHORIZED)
