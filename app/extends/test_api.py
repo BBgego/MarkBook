@@ -18,16 +18,10 @@ class TestAPI(object):
 
 
 if __name__ == '__main__':
-    # url = "http://127.0.0.1:8000/api/verify_code/"
-    # data = {
-    #     "token": "123456"
-    # }
-    # test_api = TestAPI(url=url, data=data)
-    # test_api.res("GET")
-
-    url = "http://127.0.0.1:8000/api/login/"
+    url = "http://127.0.0.1:8000/api/user/"
     data = {
-        "user": "1299622716@qq.com",
+        "name": "ngr1",
+        "email": "1693146287@qq.com",
         "password": "123456"
     }
     test_api = TestAPI(url=url, data=data)

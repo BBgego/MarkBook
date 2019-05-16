@@ -8,11 +8,11 @@ class User(models.Model):
     # 用户sid
     sid = models.CharField(max_length=20, unique=True)
     # 用户名
-    name = models.CharField(max_length=50)
+    name = models.CharField(max_length=50, unique=True)
     # 头像
     photo = models.CharField(max_length=100, default="default.jpg")
     # 用户性别
-    sex = models.CharField(max_length=10, default="男")
+    sex = models.CharField(max_length=10, null=True)
     # 邮箱
     email = models.CharField(max_length=20, unique=True, null=True)
     # 密码
